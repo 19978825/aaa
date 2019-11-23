@@ -116,7 +116,7 @@
 				{% for post in site.posts %}
 
 					<div>
-						<a href="{{ post.url }}">
+						<a href="{{site.baseurl}}{{ post.url }}">
 							<h3 class="heading mb-4">{{ post.title }}</h3>
 							<p>{{ post.excerpt }}</p>
 						</a>
