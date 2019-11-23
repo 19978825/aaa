@@ -1,0 +1,311 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>黄岸雅</title>
+
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Greetings Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+
+	<!-- css files -->
+	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS -->
+	<link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+
+	<!--web font-->
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<!--//web font-->
+
+</head>
+
+<body>
+
+<!-- //header -->
+<header>
+	<div class="container">
+		<!-- nav -->
+		<nav class="py-md-4">
+        <div id="logo">
+			<h1> <a href="index1.html"><span class="fa fa-glass" aria-hidden="true"></span> 黄岸雅<span class="block">New Year's Eve</span></a></h1>
+		</div>
+
+        <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu mt-md-3">
+                <li class="mr-lg-4 mr-3 active"><a href="#">Home</a></li>
+                <li class="mr-lg-4 mr-3">
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                <input type="checkbox" id="drop-2"/>
+                <ul class="drop-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#team">Organizers</a></li>
+                    <li><a href="#sponsers">Sponsers</a></li>
+                    <li><a href="#subscribe">Subscribe</a></li>
+                </ul>
+                </li>
+                <li class="mr-lg-4 mr-3"><a href="#contact">Contact</a></li>
+                <li class="mr-3 icons"><a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+                <li class="mr-3 icons"><a href="#"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+                <li class="mr-3 icons"><a href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+                <li class=" icons"><a href="#"><span class="fa fa-youtube-play" aria-hidden="true"></span></a></li>
+            </ul>
+        </nav>
+		<!-- //nav -->
+	</div>
+</header>
+<!-- //header -->
+
+<!-- banner -->
+<section class="banner" id="home">
+	<div class="banner-layer">
+		<div class="container">
+			<div class="w3pvt_banner_info text-center">
+				<div class="w3layouts_banner_margin">
+					<h3 class="editContent">2020 </h3>
+					<h2 class="editContent">Happy New Year</h2>
+					<h4>Get ready to celebrate</h4>
+					<a href="aa/index1.html">黄岸雅</a>
+				</div>
+			</div>
+			<!-- To bottom button-->
+			<div class="thim-click-to-bottom mt-5 pt-md-5">
+				<div class="rotate">
+					<a href="#about" class="scroll">
+						<span class="fa fa-angle-double-down"></span>
+					</a>
+				</div>
+			</div>
+			<!-- //To bottom button-->
+		</div>
+	</div>
+</section>
+<!-- //banner -->
+
+<!-- fireworks animation -->
+<div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>
+<!-- //fireworks animation -->
+<!-- about -->
+<section class="about py-5" id="about">
+	<div class="container py-md-5">
+		<div class="row about-grids">
+			<div class="col-lg-6">
+				{% for post in site.posts %}
+
+					<div>
+						<a href="{{ post.url }}">
+							<h3 class="heading mb-4">{{ post.title }}</h3>
+							<p>{{ post.excerpt }}</p>
+						</a>
+					</div>
+				{% endfor %}
+			</div>
+			<div class="col-lg-5 col-md-8 mt-lg-0 mt-4 offset-lg-1 text-center about-middle">
+			
+				<h5>New Years Eve</h5>
+				<h4 class="heading mb-3">团团圆圆</h4>
+				<p class="">阳光，送给你温暖；星星，许给你温馨；情意，带给你幸福；短信，传给你祝福；</p>
+				<a href="#contact">Happy</a>
+				
+			</div>
+		</div>
+	</div>
+</section>
+<!-- about -->
+
+<!-- fireworks animation -->
+<div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>
+<!-- //fireworks animation -->
+
+<!-- events -->
+<section class="events py-5 " id="events">
+	<div class="container py-md-5">
+		<div class="row event-grids">
+			<div class="col-lg-5">
+				<h3 class="heading mb-4">Upcoming Events</h3>
+				<ul class="event-names mt-5">
+					<li class="d-flex"><h3 class="mr-3">07 Jan</h3> Event 1 Party Night </li>
+					<li class="para">Integer pulvinar leo id viverra feuetgiat. Dolor libero ut justo, semper at tempus vel, ultrices in ligula.</li>
+					<li class="d-flex"><h3 class="mr-3">09 Jan</h3> Event 2 New Year </li>
+					<li class="para">Integer pulvinar leo id viverra feuetgiat. Dolor libero ut justo, semper at tempus vel, ultrices in ligula.</li>
+					<li class="d-flex"><h3 class="mr-3">04 Jan</h3> Event 3 Dj Show </li>
+					<li class="para">Integer pulvinar leo id viverra feuetgiat. Dolor libero ut justo, semper at tempus vel, ultrices in ligula.</li>
+				</ul>
+			</div>
+			<div class="col-lg-6 offset-lg-1 mt-lg-0 mt-4">
+
+				<img src="images/party.jpg" alt="" class="img-fluid" />
+				<h4>Please join us for a jolly night of food, drinks, dance and music.</h4>
+				<a href="#contact">Join with Us</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //events -->
+
+<!-- fireworks animation -->
+<div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>
+<!-- //fireworks animation -->
+
+
+
+
+<!-- fireworks animation -->
+<div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>
+<!-- //fireworks animation -->
+<div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+<!-- team  -->
+<section class="pb-5 py-4 team-agile position-relative" id="team">
+	<div class="container py-lg-5">
+		<h3 class="heading">Party Organizers</h3>
+		<div class="d-flex team-agile-row pt-sm-5 pt-3">
+			<div class="col-lg-3 col-sm-6 w3pvt-team">
+				<div class="box20">
+					<img src="images/t2.jpg" alt="" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">willimson</h3>
+						<span class="post">Organizer</span>
+					</div>
+					<ul class="icon">
+						<li>
+							<a href="#">
+								<span class="fa fa-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-link"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mt-sm-0 mt-4 w3pvt-team">
+				<div class="box20">
+					<img src="images/t3.jpg" alt="" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Kristiana</h3>
+						<span class="post">Organizer</span>
+					</div>
+					<ul class="icon">
+						<li>
+							<a href="#">
+								<span class="fa fa-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-link"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 w3pvt-team">
+				<div class="box20">
+					<img src="images/t1.jpg" alt="" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">franklin</h3>
+						<span class="post">Organizer</span>
+					</div>
+					<ul class="icon">
+						<li>
+							<a href="#">
+								<span class="fa fa-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-link"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 w3pvt-team">
+				<div class="box20">
+					<img src="images/t4.jpg" alt="" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">franklin</h3>
+						<span class="post">Organizer</span>
+					</div>
+					<ul class="icon">
+						<li>
+							<a href="#">
+								<span class="fa fa-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-link"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="position-right-img">
+		<img src="images/balloon.png" class="img-fluid" alt="" />
+	</div>
+</section>
+<!-- //team -->
+
+
+
+
+
+<!-- subscribe -->
+<section class="subscribe text-center py-sm-5 pt-5 pb-4" id="subscribe">
+	<div class="container pt-md-3">
+		<h4>Subscribe</h4>
+		<h3 class="heading mb-4">Stay In The Loop</h3>
+		<div class="footer-text">
+			<p class="mb-2">Sign up to get our newsletter for all the latest news, shows, and events</p>
+			<form action="#" method="post" class="d-flex">
+				<input type="email" name="Email" class=" mr-md-2 mr-1" placeholder="Email Address" required="">
+				<button class="btn">Subscribe</button>
+			</form>
+		</div>
+
+		<!-- to top -->
+		<a href="#home" class="move-top text-center"><span class="fa fa-angle-double-up mt-3" aria-hidden="true"></span></a>
+		<!-- //to top -->
+	</div>
+</section>
+<!-- //subscribe -->
+
+</body>
+</html>
